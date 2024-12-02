@@ -1,0 +1,9 @@
+{
+  email mrswager174@gmail.com
+}
+
+
+greenlightmovies.pt {
+  respond /debug/* "Not Permitted" 403
+  reverse_proxy localhost:4000
+}
